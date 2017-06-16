@@ -1,1 +1,8 @@
-style.css
+@font-face {
+    font-family: Instagram;
+    src: url(billabong.ttf);
+}
+
+.instagram {
+	font-family: Instagram;
+}
