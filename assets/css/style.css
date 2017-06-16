@@ -6,3 +6,11 @@
 .instagram {
 	font-family: Instagram;
 }
+
+.container {
+	text-align: center;
+}
+
+#inicio-sesion {
+	background: linear-gradient(45deg, #cd7951 0%,#5bb78d 100%);
+}
