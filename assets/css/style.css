@@ -3,6 +3,33 @@
     src: url(billabong.ttf);
 }
 
+html, body, .container, .row, .col-xs-12 {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex.col {
+	flex-direction: column;
+}
+
+.flex.fill {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.spc {
+	justify-content: space-between;
+}
+
 .instagram {
 	font-family: Instagram;
 	font-size: 60px
@@ -25,6 +52,7 @@ input {
 	border-radius: 0;
 	padding: 10px;
 	width: 300px;
+	margin: 0 auto;
 }
 
 .btn {
@@ -33,6 +61,7 @@ input {
 	border-radius: 0;
 	padding: 10px;
 	width: 300px;
+	margin: 0 auto;
 }
 
 #inicio-sesion .foot {
