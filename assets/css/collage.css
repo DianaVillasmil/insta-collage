@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%
+  height: 100%;
+  background-color: #333;
+}
+
+.pic {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-color: white;
+
+  cursor: move;
+}
+
+.pic.over {
+  opacity: 0.4;
+}
+
+#raiz {
+  margin: 0;
+  padding: 0;
+}
+
+
+#collage .col1 .row1 {
+  position: relative;
+  padding-bottom: 70.70%;
+}
+
+#collage .col1 .row1 .pic-1 {
+  background-color: yellow;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 4px;
+  border-right-width: 8px;
+}
+
+#collage .col1 .row2 {
+  position: relative;
+  padding-bottom: 70.70%;
+}
+
+#collage .col1 .row2 .pic-2 {
+  background-color: orange;
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 4px;
+  border-right-width: 8px;
+}
+
+#collage .col2 .row1 {
+  position: relative;
+  padding-bottom: 141.41%;
+}
+
+#collage .col2 .pic-3 {
+  background-color: pink;
+}
+
+#booth {
+  color: lightskyblue;
+  padding: 10px;
+  text-align: center;
+}
+
+#gallery .row {
+  position: relative;
+  padding: 2px;
+  margin: 0;
+  width: 100%;
+}
+
+#gallery .row > * {
+  position: relative;
+  padding: 2px;
+}
+
+#gallery .row .pic-frame {
+  position: relative;
+  padding-bottom: 100%;  
+}
+
+#gallery .row .pic-frame .pic {
+  background-color: red;
+}
+
+#gallery .row .pic-frame .pic-1 {
+  background-image: url(../img/1.jpg);
+}
+
+#gallery .row .pic-frame .pic-2 {
+  background-image: url(../img/2.jpg);
+}
+
+#gallery .row .pic-frame .pic-3 {
+  background-image: url(../img/3.jpg);
+}
+
+#gallery .row .pic-frame .pic-4 {
+  background-image: url(../img/4.jpg);
+}
+
+#gallery .row .pic-frame .pic-5 {
+  background-image: url(../img/5.jpg);
+}
+
+#gallery .row .pic-frame .pic-6 {
+  background-image: url(../img/6.jpg);
+}
+
+#gallery .row .pic-frame .pic-7 {
+  background-image: url(../img/7.jpg);
+}
+
+#gallery .row .pic-frame .pic-8 {
+  background-image: url(../img/8.jpg);
+}
+
+#gallery .row .pic-frame .pic-9 {
+  background-image: url(../img/9.jpg);
+}
+
+#gallery .row .pic-frame .pic-10 {
+  background-image: url(../img/10.jpg);
+}
+
+#gallery .row .pic-frame .pic-11 {
+  background-image: url(../img/11.jpg);
+}
+
+#gallery .row .pic-frame .pic-12 {
+  background-image: url(../img/12.jpg);
+}
+
+#gallery .row .pic-frame .pic-13 {
+  background-image: url(../img/13.jpg);
+}
+
+#gallery .row .pic-frame .pic-14 {
+  background-image: url(../img/14.jpg);
+}
+
+#gallery .row .pic-frame .pic-15 {
+  background-image: url(../img/15.jpg);
+}
+
+#gallery .row .pic-frame .pic-16 {
+  background-image: url(../img/16.jpg);
+}
